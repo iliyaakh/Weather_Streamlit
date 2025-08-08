@@ -114,7 +114,7 @@ setting = st.sidebar.selectbox('diagrees', ('weather','Delete from history','Del
 if setting == 'weather':
     st.title('Welcom to your Website')
     st.write('Check the weather for any city!')
-    city = st.text_input('Enter your city : ').capitalize()
+    city = st.text_input('Enter your city (ENG): ').capitalize()
     
     if city:
         result = get_city(city)
